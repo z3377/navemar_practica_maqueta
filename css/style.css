@@ -6,13 +6,30 @@ body {
   height: 208px;
 }
 
-header nav div a#paranave {
+header nav div span a#paranave {
   width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #060f3a;
 }
-header nav div a#paranave img#img-paranave {
+header nav div span a#paranave img#img-paranave {
   Filter: brightness(0) invert(1);
+}
+header nav div span a#btn-ingles {
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav div span a#btn-ingles img {
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+header nav div span a#btn-ingles p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+header nav div span a#btn-ingles:hover {
+  color: inherit;
 }/*# sourceMappingURL=style.css.map */

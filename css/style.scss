@@ -1,24 +1,49 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .cont-tam {
-    height: 208px;
+  height: 208px;
 }
 
 header {
-    nav {
-        div {
-            a#paranave {
-                width: 250px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: #060f3a;
-                img#img-paranave {
-                    Filter: brightness(0) invert(1);
-                }
-            }
+  nav {
+    div {
+      span {
+        a#paranave {
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #060f3a;
+
+          img#img-paranave {
+            Filter: brightness(0) invert(1);
+          }
         }
+
+        a#btn-ingles {
+          width: 125px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-bottom: 10px;
+            margin-right: 6px;
+          }
+
+          p {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+
+        }
+
+        a#btn-ingles:hover {
+          color: inherit;
+        }
+      }
     }
+  }
 }
