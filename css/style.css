@@ -1,0 +1,18 @@
+body {
+  overflow-x: hidden;
+}
+
+.cont-tam {
+  height: 208px;
+}
+
+header nav div a#paranave {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #060f3a;
+}
+header nav div a#paranave img#img-paranave {
+  Filter: brightness(0) invert(1);
+}/*# sourceMappingURL=style.css.map */
