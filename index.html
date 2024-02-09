@@ -20,40 +20,83 @@
 
 <body>
   <header>
-    <nav id="nav" class="navbar bg-white d-flex p-0">
-      <div class="container-xl cont-tam">
-        <a class="navbar-brand" href="#">
-          <img src="/images/logo.png" alt="Bootstrap">
-        </a>
-        <span class="d-flex">
-          <a id="btn-ingles" class="nav-item cont-tam text-decoration-none" href="#">
-            <img src="/images/english.png" alt="">
-            <p class="text-dark fw-bold">
-              Ingles
-            </p>
+    <div id="nav-cont">
+      <nav id="nav" class="navbar bg-white d-flex p-0">
+        <div class="container-xl cont-tam">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" alt="Bootstrap">
           </a>
-          <a id="paranave" class="nav-item cont-tam" href="#">
-            <img id="img-paranave" src="/images/paranave.png" alt="">
+          <span class="d-flex">
+            <a id="btn-ingles" class="nav-item cont-tam text-decoration-none" href="#">
+              <img src="/images/english.png" alt="">
+              <p class="text-dark fw-bold">
+                English
+              </p>
+            </a>
+            <a id="paranave" class="nav-item cont-tam position-relative text-decoration-none"" href=" #">
+              <div id="flota" class="position-absolute">
+                <p class="text-white">
+                  FLOTA
+                </p>
+              </div>
+              <div id="logo-paranave" class="position-absolute">
+                <img id="img-paranave" src="/images/paranave.png" alt="">
+              </div>
+            </a>
+          </span>
+        </div>
+      </nav>
+    </div>
+    <div id="cont-item" class="bg-gradient">
+      <ul id="ul-itemnes" class="nav justify-content-center bg-primary bg-gradient fw-bold container-xl">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white space-items" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            INSTITUCIONAL
           </a>
-        </span>
-      </div>
-    </nav>
-    <ul class="nav justify-content-center bg-primary bg-gradient ">
-      <li class="nav-item ">
-        <a class="nav-link active text-white" aria-current="page" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active text-white" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white space-items" href="#">SERVICIOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white space-items" href="#">CERTIFICACIONES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white space-items" aria-disabled="true">VIDEOS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white space-items" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            FORMULARIOS E INFORMACION
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </header>
-  <main></main>
+  <main>
+    <div id="cont-banner" class="position-relative">
+      <img id="img-banner" class="position-absolute" src="/images/banner-bg-desktop.jpg" alt="">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <p id="titulo-banner">
+          ¡Sumate a nuestro equipo!
+        </p>
+        <p id="texto-banner" class="text-white">
+          Competimos en mercados sumamente exigentes, desarrollando actividades de transporte y servicios conexos en forma integrada, orientados a negocios rentables, centrados en la excelencia en el servicio y en la atención al cliente, con sentido de trascendencia en el tiempo, con profundo respeto a las personas y al medio ambiente. <br><br>
+          Si te indentificas con nuestros valores te invitamos a formar parte de nuestro equipo.
+        </p>
+      </div>
+    </div>
+  </main>
   <footer>
     <!-- place footer here -->
   </footer>

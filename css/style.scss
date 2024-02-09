@@ -1,49 +1,176 @@
-body {
-  overflow-x: hidden;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.cont-tam {
-  height: 208px;
-}
+  :root {
+    --bs-tertiary-bg: transparent;
+    /* Define tu color */
+    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+  }
 
-header {
-  nav {
-    div {
-      span {
-        a#paranave {
-          width: 250px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #060f3a;
 
-          img#img-paranave {
-            Filter: brightness(0) invert(1);
+  body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+  }
+
+  .cont-tam {
+    height: 208px;
+    width: 1160px;
+  }
+
+  header {
+    div#nav-cont {
+      nav {
+        div {
+          span {
+            a#paranave {
+              width: 250px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #060f3a;
+
+              div#flota {
+                top: 62px;
+                font-weight: 400;
+                font-size: 18px;
+
+                p {
+                  margin: 0px;
+                }
+              }
+
+              a#paranave:hover {
+                color: inherit;
+                text-decoration: none;
+              }
+
+              div#logo-paranave {
+                bottom: 58px;
+                margin: 0px;
+                left: 36px;
+
+                img#img-paranave {
+                  Filter: brightness(0) invert(1);
+                }
+              }
+            }
+
+            a#btn-ingles {
+              width: 125px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 30px;
+
+              img {
+                margin-bottom: 10px;
+                margin-right: 6px;
+              }
+
+              p {
+                font-size: 16px;
+                margin-bottom: 10px;
+              }
+
+            }
+
+            a#btn-ingles:hover {
+              color: inherit;
+            }
           }
         }
+      }
+    }
 
-        a#btn-ingles {
-          width: 125px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+    div#cont-item {
+      background-color: #1e479d !important;
 
-          img {
-            margin-bottom: 10px;
-            margin-right: 6px;
+      ul#ul-itemnes {
+        height: 75px;
+        background-color: #1e479d !important;
+        font-size: 10px;
+
+        li {
+          a {
+            margin-right: 58px;
+            margin-left: 58px;
+            margin-top: 24px;
           }
-
-          p {
-            font-size: 16px;
-            margin-bottom: 10px;
-          }
-
-        }
-
-        a#btn-ingles:hover {
-          color: inherit;
         }
       }
     }
   }
-}
+
+
+  main {
+    div#cont-banner {
+      height: 508px;
+
+      img#img-banner {
+        z-index: -9;
+      }
+
+      div {
+        width: 1073px;
+        height: 359px;
+
+        p#titulo-banner {
+          font-weight: 700;
+          font-size: 50px;
+          line-height: 60.95px;
+          color: #fff;
+          margin-bottom: 30px;
+        }
+
+        p#texto-banner {
+          width: 1073px;
+          height: 158px;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          margin-bottom: 60px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1366px) {
+
+    .cont-tam {
+      height: 208px;
+      width: 1104px;
+    }
+
+    div#cont-item {
+      background-color: #1e479d !important;
+
+      ul#ul-itemnes {
+        height: 75px;
+        background-color: #1e479d !important;
+        font-size: 10px;
+
+        li {
+          a {
+            margin-right: 50px !important;
+            margin-left: 50px !important;
+            margin-top: 24px !important;
+          }
+        }
+      }
+    }
+
+    main {
+      div#cont-banner {
+        height: 508px;
+
+        img#img-banner {
+          z-index: -9;
+        }
+
+        div {
+          width: 1007px;
+          height: 359px;
+        }
+      }
+    }
+  }
