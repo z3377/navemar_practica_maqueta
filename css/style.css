@@ -99,6 +99,24 @@ main div#cont-banner div p#texto-banner {
   line-height: 28px;
   margin-bottom: 60px;
 }
+main div#cont-banner div div#btn-form-link a#formulario {
+  background-color: #f78b1d;
+  width: 287px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+main div#cont-banner div div#btn-form-link a#linkedin {
+  width: 155px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  background-color: #5c94ec;
+  margin-left: 30px;
+}
 
 @media (max-width: 1366px) {
   .cont-tam {
