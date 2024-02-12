@@ -107,6 +107,8 @@
 
 
   main {
+    margin-bottom: 120px;
+
     div#cont-banner {
       height: 508px;
       margin-bottom: 59px;
@@ -225,12 +227,52 @@
     }
 
     div#area-interes {
-      p {
+      p#titulo-interes {
         font-weight: 700;
         font-size: 18px;
         line-height: 26px;
         color: #004799;
         margin-bottom: 38px;
+      }
+
+      div#interes {}
+
+      hr {
+        margin-bottom: 38px;
+      }
+
+      a {
+        text-decoration: none;
+
+        p#siguiente {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 26px;
+          color: #004799;
+
+          img {
+            width: 28px;
+            height: 15.75px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #1e479d;
+
+    div#cont-col-fot {
+      width: 1015px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+      div {
+        font-weight: 500;
+        line-height: 30px;
+        font-size: 12px;
       }
     }
   }
@@ -242,7 +284,23 @@
       width: 1104px;
     }
 
-    
+    footer {
+      background-color: #1e479d;
+
+      div#cont-col-fot {
+        width: 1015px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        div {
+          font-weight: 500;
+          line-height: 30px;
+          font-size: 12px;
+        }
+      }
+    }
 
     div#cont-item {
       background-color: #1e479d !important;
@@ -281,16 +339,16 @@
             color: #fff;
             margin-bottom: 30px;
           }
-  
+
           p#texto-banner {
-            width: 1010px;
+            width: 1002px;
             height: 158px;
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
             margin-bottom: 60px;
           }
-  
+
           div#btn-form-link {
             a#formulario {
               background-color: #f78b1d;
@@ -302,7 +360,7 @@
               font-size: 18px;
               line-height: 26px;
             }
-  
+
             a#linkedin {
               width: 155px;
               height: 50px;

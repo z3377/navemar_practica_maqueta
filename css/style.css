@@ -78,6 +78,9 @@ header div#cont-item ul#ul-itemnes li a {
   margin-top: 24px;
 }
 
+main {
+  margin-bottom: 120px;
+}
 main div#cont-banner {
   height: 508px;
   margin-bottom: 59px;
@@ -171,18 +174,65 @@ main p#queremos-conocerte {
   color: #004799;
   margin-bottom: 49px;
 }
-main div#area-interes p {
+main div#area-interes p#titulo-interes {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #004799;
   margin-bottom: 38px;
 }
+main div#area-interes hr {
+  margin-bottom: 38px;
+}
+main div#area-interes a {
+  text-decoration: none;
+}
+main div#area-interes a p#siguiente {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #004799;
+}
+main div#area-interes a p#siguiente img {
+  width: 28px;
+  height: 15.75px;
+}
+
+footer {
+  background-color: #1e479d;
+}
+footer div#cont-col-fot {
+  width: 1015px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+footer div#cont-col-fot div {
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 12px;
+}
 
 @media (max-width: 1366px) {
   .cont-tam {
     height: 208px;
     width: 1104px;
+  }
+  footer {
+    background-color: #1e479d;
+  }
+  footer div#cont-col-fot {
+    width: 1015px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer div#cont-col-fot div {
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 12px;
   }
   div#cont-item {
     background-color: #1e479d !important;
@@ -215,7 +265,7 @@ main div#area-interes p {
     margin-bottom: 30px;
   }
   main div#cont-banner div p#texto-banner {
-    width: 1010px;
+    width: 1002px;
     height: 158px;
     font-weight: 400;
     font-size: 20px;
