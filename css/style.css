@@ -6,13 +6,17 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: "Montserrat";
 }
 
 .cont-tam {
   height: 208px;
   width: 1160px;
+}
+
+.marg-bot-70 {
+  margin-bottom: 70px !important;
 }
 
 header div#nav-cont nav div span a#paranave {
@@ -77,6 +81,9 @@ header div#cont-item ul#ul-itemnes li a {
 main div#cont-banner {
   height: 508px;
   margin-bottom: 59px;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 main div#cont-banner img#img-banner {
   z-index: -9;
@@ -129,6 +136,34 @@ main div#cont-form-1 p#datos-personales {
   line-height: 26px;
   color: #004799;
 }
+main div#cont-form-1 div#cont-nomb {
+  margin-bottom: 40px;
+}
+main div#cont-form-1 div#cont-nomb p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+main div#cont-form-1 div#cont-nomb div textarea {
+  border-radius: 100px;
+  margin-left: -5px;
+  border: solid 2px #66b5fe;
+  overflow-y: hidden;
+}
+main div#cont-form-1 div#cont-nomb div label {
+  color: gray;
+}
+main div#cont-form-1 div#cont-nomb div#cont-2-col {
+  margin: 0px;
+  padding: 0px;
+}
+main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-1 {
+  padding-right: 15px;
+}
+main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-2 {
+  padding-left: 15px;
+}
 @media (max-width: 1366px) {
   .cont-tam {
     height: 208px;
@@ -156,5 +191,8 @@ main div#cont-form-1 p#datos-personales {
   main div#cont-banner div {
     width: 1007px;
     height: 359px;
+  }
+  main div#cont-form-1 {
+    width: 1016px !important;
   }
 }/*# sourceMappingURL=style.css.map */
