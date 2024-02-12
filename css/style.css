@@ -202,7 +202,7 @@ footer {
   background-color: #1e479d;
 }
 footer div#cont-col-fot {
-  width: 1015px;
+  width: 1062px;
   padding-top: 80px;
   padding-bottom: 40px;
   padding-left: 0px;
@@ -212,6 +212,13 @@ footer div#cont-col-fot div {
   font-weight: 500;
   line-height: 30px;
   font-size: 12px;
+}
+footer div#cont-col-fot div#img img {
+  padding-top: 12px;
+}
+footer div#logo-nos {
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1366px) {
@@ -223,7 +230,7 @@ footer div#cont-col-fot div {
     background-color: #1e479d;
   }
   footer div#cont-col-fot {
-    width: 1015px;
+    width: 1005px;
     padding-top: 80px;
     padding-bottom: 40px;
     padding-left: 0px;

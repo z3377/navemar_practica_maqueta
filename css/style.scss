@@ -263,17 +263,28 @@
     background-color: #1e479d;
 
     div#cont-col-fot {
-      width: 1015px;
-        padding-top: 80px;
-        padding-bottom: 40px;
-        padding-left: 0px;
-        padding-right: 0px;
+      width: 1062px;
+      padding-top: 80px;
+      padding-bottom: 40px;
+      padding-left: 0px;
+      padding-right: 0px;
 
       div {
         font-weight: 500;
         line-height: 30px;
         font-size: 12px;
       }
+
+      div#img{
+        img{
+          padding-top: 12px;
+        }
+      }
+    }
+
+    div#logo-nos {
+      padding-top: 30px;
+      padding-bottom: 50px;
     }
   }
 
@@ -288,7 +299,7 @@
       background-color: #1e479d;
 
       div#cont-col-fot {
-        width: 1015px;
+        width: 1005px;
         padding-top: 80px;
         padding-bottom: 40px;
         padding-left: 0px;
