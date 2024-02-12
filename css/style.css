@@ -76,9 +76,11 @@ header div#cont-item ul#ul-itemnes li a {
 
 main div#cont-banner {
   height: 508px;
+  margin-bottom: 59px;
 }
 main div#cont-banner img#img-banner {
   z-index: -9;
+  height: 500px;
 }
 main div#cont-banner div {
   width: 1073px;
@@ -117,7 +119,16 @@ main div#cont-banner div div#btn-form-link a#linkedin {
   background-color: #5c94ec;
   margin-left: 30px;
 }
-
+main div#cont-form-1 {
+  width: 1080px;
+}
+main div#cont-form-1 p#datos-personales {
+  height: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #004799;
+}
 @media (max-width: 1366px) {
   .cont-tam {
     height: 208px;
