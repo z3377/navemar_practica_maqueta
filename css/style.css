@@ -164,6 +164,21 @@ main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-1 {
 main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-2 {
   padding-left: 15px;
 }
+main p#queremos-conocerte {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #004799;
+  margin-bottom: 49px;
+}
+main div#area-interes p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #004799;
+  margin-bottom: 38px;
+}
+
 @media (max-width: 1366px) {
   .cont-tam {
     height: 208px;
@@ -191,6 +206,39 @@ main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-2 {
   main div#cont-banner div {
     width: 1007px;
     height: 359px;
+  }
+  main div#cont-banner div p#titulo-banner {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.95px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  main div#cont-banner div p#texto-banner {
+    width: 1010px;
+    height: 158px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 60px;
+  }
+  main div#cont-banner div div#btn-form-link a#formulario {
+    background-color: #f78b1d;
+    width: 287px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 12px 30px 12px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  main div#cont-banner div div#btn-form-link a#linkedin {
+    width: 155px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 12px 30px 12px 30px;
+    background-color: #5c94ec;
+    margin-left: 30px;
   }
   main div#cont-form-1 {
     width: 1016px !important;

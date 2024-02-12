@@ -17,7 +17,7 @@
     width: 1160px;
   }
 
-  .marg-bot-70{
+  .marg-bot-70 {
     margin-bottom: 70px !important;
   }
 
@@ -178,6 +178,7 @@
 
       div#cont-nomb {
         margin-bottom: 40px;
+
         p {
           font-weight: 400;
           font-size: 16px;
@@ -192,18 +193,21 @@
             border: solid 2px #66b5fe;
             overflow-y: hidden;
           }
-          label{
+
+          label {
             color: gray;
           }
         }
 
-        div#cont-2-col{
+        div#cont-2-col {
           margin: 0px;
           padding: 0px;
-          div#col-1{
+
+          div#col-1 {
             padding-right: 15px;
           }
-          div#col-2{
+
+          div#col-2 {
             padding-left: 15px;
           }
         }
@@ -211,6 +215,24 @@
     }
 
     div#cont-form-1:hover {}
+
+    p#queremos-conocerte {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      color: #004799;
+      margin-bottom: 49px;
+    }
+
+    div#area-interes {
+      p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #004799;
+        margin-bottom: 38px;
+      }
+    }
   }
 
   @media (max-width: 1366px) {
@@ -219,6 +241,8 @@
       height: 208px;
       width: 1104px;
     }
+
+    
 
     div#cont-item {
       background-color: #1e479d !important;
@@ -249,6 +273,45 @@
         div {
           width: 1007px;
           height: 359px;
+
+          p#titulo-banner {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60.95px;
+            color: #fff;
+            margin-bottom: 30px;
+          }
+  
+          p#texto-banner {
+            width: 1010px;
+            height: 158px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 60px;
+          }
+  
+          div#btn-form-link {
+            a#formulario {
+              background-color: #f78b1d;
+              width: 287px;
+              height: 50px;
+              border-radius: 30px;
+              padding: 12px 30px 12px 30px;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 26px;
+            }
+  
+            a#linkedin {
+              width: 155px;
+              height: 50px;
+              border-radius: 30px;
+              padding: 12px 30px 12px 30px;
+              background-color: #5c94ec;
+              margin-left: 30px;
+            }
+          }
         }
       }
 
