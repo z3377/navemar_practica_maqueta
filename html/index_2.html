@@ -5,7 +5,7 @@
   <!-- titulo de la pagina -->
   <title>Navemar</title>
   <!-- icono de la pagina -->
-  <link rel="icon" href="images/nav-favicon.png" type="image/png">
+  <link rel="icon" href="../images/nav-favicon.png" type="image/png">
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -23,7 +23,7 @@
     <div id="nav-cont">
       <nav id="nav" class="navbar bg-white d-flex p-0">
         <div class="container-xl cont-tam">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="../index.html">
             <img src="../images/logo.png" alt="Bootstrap">
           </a>
           <span class="d-flex">
@@ -109,79 +109,159 @@
     </div>
     <div id="cont-form-1" class="container">
       <p id="datos-personales">
-        Datos Personales
+        Experiencia Laboral
       </p>
       <div id="cont-nomb">
         <p>
-          Nombre y Apellido*
+          Empresa
         </p>
         <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-          <label for="floatingTextarea">Ingresá tu Nombre y Apellido</label>
+          <label for="floatingTextarea">Ingresá el nombre de la empresa</label>
         </div>
       </div>
-      <div id="cont-nomb" class="marg-bot-70">
+      <div id="cont-nomb">
+        <p>
+          Cargo Ocupado
+        </p>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Ingresá el Cargo que ocupaste</label>
+        </div>
+      </div>
+      <div id="cont-nomb" class="marg-bot-60">
         <div id="cont-2-col" class=" justify-content-end d-flex">
           <div id="col-1" class="col-6 flex-column">
             <p>
-              Fecha de Nacimiento*
+              Desde
             </p>
             <div class="form-floating">
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">01/01/1990</label>
+              <label for="floatingTextarea">26/09/2023</label>
             </div>
           </div>
           <div id="col-2" class="col-6 flex-column">
             <p>
-              Número de Celular*
+              Hasta
             </p>
             <div class="form-floating">
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">09XX XXX XXX</label>
+              <label for="floatingTextarea">26/09/2023</label>
             </div>
           </div>
         </div>
       </div>
+      <div class="container text-end position-relative">
+        <input class="btn btn-primary" type="button" value="Agregar otra Experiencia">
+        <img src="../images/icono-cruz_.png" alt="" class="position-absolute">
+      </div>
 
+      <hr id="hr-pagina-2">
 
       <p id="datos-personales">
-        Datos de tu domicilio
+        Formación Académica
       </p>
       <div id="cont-nomb">
         <p>
-          Dirección*
+          Título obtenido / Habilitante
         </p>
         <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-          <label for="floatingTextarea">Ingresá tu Dirección</label>
+          <label for="floatingTextarea">Ingresa tu Título o Habilitante</label>
         </div>
       </div>
-      <div id="cont-nomb" class="marg-bot-70">
-        <p>
-          Ciudad de Residencia*
-        </p>
-        <div class="form-floating">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-          <label for="floatingTextarea">Ingresá tu Dirección</label>
+      <div id="cont-nomb" class="marg-bot-60">
+        <div id="cont-2-col" class=" justify-content-end d-flex">
+          <div id="col-1" class="col-6 flex-column">
+            <p>
+              Institución
+            </p>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Ingresá el nombre de la Institución</label>
+            </div>
+          </div>
+          <div id="col-2" class="col-6 flex-column">
+            <p>
+              Año
+            </p>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">26/09/2023</label>
+            </div>
+          </div>
         </div>
       </div>
-      <p id="queremos-conocerte">
-        Queremos conocerte más
-      </p>
-      <div id="area-interes">
-        <p id="titulo-interes">
-          Selecciona el área de tu interés
-        </p>
-        <div id="interes">
+      <div class="container text-end position-relative">
+        <input class="btn btn-primary" type="button" value="Agregar otra Formación">
+        <img src="../images/icono-cruz_.png" alt="" class="position-absolute">
+      </div>
+      <hr id="hr-pagina-2">
 
+      <p id="datos-personales">
+        Idiomas
+      </p>
+      <div id="cont-nomb" class="marg-bot-60">
+        <div id="cont-2-col" class=" justify-content-end d-flex">
+          <div id="col-1" class="col-6 flex-column">
+            <p>
+              Idioma
+            </p>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Seleccioná un idioma</label>
+            </div>
+          </div>
+          <div id="col-2" class="col-6 flex-column">
+            <p>
+              Nivel
+            </p>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Seleccioná el Nivel</label>
+            </div>
+          </div>
         </div>
-        <hr>
-        <a href="#">
-          <p id="siguiente" class="text-end">
-            Siguiente <img src="../images/right-arrow.svg" alt="">
-          </p>
-        </a>
       </div>
+      <div class="container text-end position-relative">
+        <input class="btn btn-primary" type="button" value="Agregar otro Idioma">
+        <img src="../images/icono-cruz_.png" alt="" class="position-absolute">
+      </div>
+      <hr id="hr-pagina-2">
+
+      <p id="datos-personales">
+        Pretensión Salarial
+      </p>
+      <div id="cont-nomb">
+        <p>
+          Pretensión Salarial
+        </p>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Gs. 000.000.000</label>
+        </div>
+      </div>
+      <hr id="hr-pagina-2">
+
+      <div id="curriculum" class="container text-center">
+        <p class="titulo">
+          Adjuntar archivo <br>
+          <span class="subtitulo">
+            (Formato Pdf o Word, peso máximo 10mb)
+          </span>
+        </p>
+        <div class="container text-center ">
+          <img src="../images/icono-cruz_.png" alt="" class="position-absolute">
+          <input class="btn btn-primary position-relative" type="button" value="Agregar otro Idioma">
+        </div>
+      </div>
+
+      <hr id="hr-pagina-2">
+      <a href="#">
+        <p id="siguiente" class="text-end">
+          Siguiente <img src="../images/right-arrow.svg" alt="">
+        </p>
+      </a>
     </div>
   </main>
   <footer class="bg-gradient ">
