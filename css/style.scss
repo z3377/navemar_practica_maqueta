@@ -2,7 +2,6 @@
 
   :root {
     --bs-tertiary-bg: transparent;
-    /* Define tu color */
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   }
 
@@ -19,11 +18,33 @@
     padding: 6px 10px 6px 5px;
   }
 
+  .label-check-2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 8px 10px 6px 5px;
+  }
+
+  select {
+    border-radius: 100px !important;
+    margin-left: -5px !important;
+    border: solid 2px #66b5fe !important;
+    overflow-y: hidden !important;
+    height: 58px;
+  }
+
   .check-box-custom {
     /* Aumenta el tamaño del checkbox */
     width: 30px;
     height: 30px;
     border: 2px solid black;
+  }
+
+  .check-box-custom-2 {
+    /* Aumenta el tamaño del checkbox */
+    width: 30px;
+    height: 30px;
+    border: 2px solid #5c94ec;
   }
 
   .cont-tam {
@@ -39,6 +60,20 @@
     margin-bottom: 60px !important;
   }
 
+  .check-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form-check{
+    margin-bottom: 34px;
+  }
+
+  hr#hr-primera-pagina{
+    margin-top: 63px;
+  }
+  
   header {
     div#nav-cont {
       nav {
@@ -334,7 +369,7 @@
         }
       }
 
-      div#check-cont{
+      div#check-cont {
         margin-bottom: 30px;
       }
     }
@@ -382,8 +417,8 @@
       }
     }
 
-    div#btn-postularme{
-      input{
+    div#btn-postularme {
+      input {
         width: 232px;
         height: 65px;
         padding: 16px 40px 16px 40px;
@@ -392,6 +427,7 @@
         font-size: 25px;
         line-height: 33px;
       }
+
       margin-bottom: 40px;
     }
   }

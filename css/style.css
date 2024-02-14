@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --bs-tertiary-bg: transparent;
-  /* Define tu color */
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
 }
 
@@ -18,11 +17,33 @@ body {
   padding: 6px 10px 6px 5px;
 }
 
+.label-check-2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 8px 10px 6px 5px;
+}
+
+select {
+  border-radius: 100px !important;
+  margin-left: -5px !important;
+  border: solid 2px #66b5fe !important;
+  overflow-y: hidden !important;
+  height: 58px;
+}
+
 .check-box-custom {
   /* Aumenta el tamaño del checkbox */
   width: 30px;
   height: 30px;
   border: 2px solid black;
+}
+
+.check-box-custom-2 {
+  /* Aumenta el tamaño del checkbox */
+  width: 30px;
+  height: 30px;
+  border: 2px solid #5c94ec;
 }
 
 .cont-tam {
@@ -36,6 +57,20 @@ body {
 
 .marg-bot-60 {
   margin-bottom: 60px !important;
+}
+
+.check-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form-check {
+  margin-bottom: 34px;
+}
+
+hr#hr-primera-pagina {
+  margin-top: 63px;
 }
 
 header div#nav-cont nav div span a#paranave {
