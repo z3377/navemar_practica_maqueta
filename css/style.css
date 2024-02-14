@@ -40,10 +40,10 @@ select {
 }
 
 .check-box-custom-2 {
-  /* Aumenta el tamaño del checkbox */
   width: 30px;
   height: 30px;
   border: 2px solid #5c94ec;
+  margin-right: 3px;
 }
 
 .cont-tam {
