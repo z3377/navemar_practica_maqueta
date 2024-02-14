@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --bs-tertiary-bg: transparent;
@@ -8,6 +9,20 @@
 body {
   overflow-x: hidden !important;
   font-family: "Montserrat";
+}
+
+.label-check {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 6px 10px 6px 5px;
+}
+
+.check-box-custom {
+  /* Aumenta el tamaño del checkbox */
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
 }
 
 .cont-tam {
@@ -82,9 +97,6 @@ header div#cont-item ul#ul-itemnes li a {
   margin-top: 24px;
 }
 
-main {
-  margin-bottom: 120px;
-}
 main div#cont-banner {
   height: 508px;
   margin-bottom: 59px;
@@ -136,6 +148,18 @@ main div#cont-banner div div#btn-form-link a#linkedin {
 main div#cont-form-1 {
   width: 1080px;
 }
+main div#cont-form-1 div#curriculum {
+  /*   div#check-cont {
+    div#form-check {
+      label {
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 26px !important;
+        color: red !important;
+      }
+    }
+  } */
+}
 main div#cont-form-1 div#curriculum .titulo {
   font-weight: 700;
   font-size: 18px;
@@ -156,7 +180,7 @@ main div#cont-form-1 div#curriculum div.container.text-center {
 }
 main div#cont-form-1 div#curriculum div.container.text-center input.btn.btn-primary {
   border-radius: 40px;
-  width: 297px;
+  width: 346px;
   height: 50px;
   padding: 12px 22px 12px 52px;
   font-weight: 700;
@@ -180,10 +204,12 @@ main div#cont-form-1 a p#siguiente {
   font-size: 18px;
   line-height: 26px;
   color: #004799;
+  margin-bottom: 50px;
 }
 main div#cont-form-1 a p#siguiente img {
-  width: 28px;
+  width: 38px;
   height: 15.75px;
+  padding-right: 10px;
 }
 main div#cont-form-1 div.container.text-end {
   padding-right: 6px;
@@ -244,6 +270,9 @@ main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-1 {
 main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-2 {
   padding-left: 15px;
 }
+main div#cont-form-1 div#check-cont {
+  margin-bottom: 30px;
+}
 main p#queremos-conocerte {
   font-weight: 700;
   font-size: 28px;
@@ -264,15 +293,28 @@ main div#area-interes hr {
 main div#area-interes a {
   text-decoration: none;
 }
-main div#area-interes a p#siguiente {
+main div#area-interes a p#siguiente-1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #004799;
+  margin-bottom: 120px;
 }
-main div#area-interes a p#siguiente img {
-  width: 28px;
+main div#area-interes a p#siguiente-1 img {
+  width: 38px;
   height: 15.75px;
+}
+main div#btn-postularme {
+  margin-bottom: 40px;
+}
+main div#btn-postularme input {
+  width: 232px;
+  height: 65px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
 }
 
 footer {
@@ -397,7 +439,7 @@ footer div#logo-nos {
   }
   main div#cont-form-1 div#curriculum div.container.text-center input.btn.btn-primary {
     border-radius: 40px;
-    width: 297px;
+    width: 346px;
     height: 50px;
     padding: 12px 22px 12px 58px;
     font-weight: 700;
