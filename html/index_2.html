@@ -67,7 +67,7 @@
           <a class="nav-link text-white space-items" href="#">CERTIFICACIONES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white space-items" aria-disabled="true">VIDEOS</a>
+          <a class="nav-link text-white space-items" href="#">VIDEOS</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white space-items" href="#" role="button" data-bs-toggle="dropdown"
@@ -268,9 +268,48 @@
         </p>
         <div class="container text-center position-relative">
           <img src="../images/paperclip_.png" alt="" class="position-absolute">
-          <input class="btn btn-primary" type="button" value="Subir CV">
+          <!-- Botón visible para el usuario -->
+          <button class="boton-cv" id="uploadTrigger">Subir CV</button>
+          <!-- Input de archivo oculto -->
+          <input type="file" id="fileInput" style="display: none;" accept=".pdf,.doc,.docx" />
         </div>
       </div>
+
+      <script>
+        document.getElementById('uploadTrigger').addEventListener('click', function () {
+          document.getElementById('fileInput').click(); // Simula un clic en el input de archivo real
+        });
+
+        document.getElementById('fileInput').addEventListener('change', function () {
+          // Aquí puedes agregar código para manejar el archivo seleccionado
+          // Por ejemplo, validar el tamaño del archivo antes de enviar
+          const file = this.files[0];
+          if (file) {
+            // Asegúrate de que el archivo no exceda los 10MB
+            if (file.size > 10485760) { // 10 MB en bytes
+              alert('El archivo debe ser menor de 10MB.');
+              this.value = ''; // Limpia el campo si el archivo es demasiado grande
+            } else {
+              // Procesa el archivo
+              console.log('Archivo listo para ser procesado:', file.name);
+            }
+          }
+        });
+      </script>
+
+
+      <!-- <div id="curriculum" class="container text-center marg-bot-40 marg-top-30 borde-superior-negro">
+        <p class="titulo">
+          Adjuntar archivo <br>
+          <span class="subtitulo">
+            (Formato Pdf o Word, peso máximo 10mb)
+          </span>
+        </p>
+        <div class="container text-center position-relative">
+          <img src="../images/paperclip_.png" alt="" class="position-absolute">
+          <input class="btn btn-primary" type="button" value="Subir CV">
+        </div>
+      </div> -->
 
       <!-- <hr id="hr-pagina-2"> -->
       <div id="check-cont" class="d-flex justify-content-center marg-top-30 borde-superior-negro">
@@ -281,9 +320,32 @@
           </label>
         </div>
       </div>
-      <div id="btn-postularme" class="container text-center">
+      <!-- <div id="btn-postularme" class="container text-center">
         <input class="btn btn-primary" type="button" value="Postularme">
+      </div> -->
+      <div id="btn-postularme" class="container text-center">
+        <button type="button" class="boton-postularme" data-bs-toggle="modal"
+          data-bs-target="#postularmeModal">Postularme</button>
       </div>
+
+      <div class="modal" id="postularmeModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <a href="../index.html">
         <p id="siguiente" class="text-start">
           <img src="../images/left-arrow.svg" alt="">Atrás

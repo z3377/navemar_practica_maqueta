@@ -51,6 +51,37 @@ select {
   width: 1160px;
 }
 
+.boton-cv {
+  border-radius: 40px;
+  width: 346px;
+  height: 50px;
+  padding: 12px 22px 12px 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: white;
+  color: #004799;
+  border-color: #5c94ec;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.boton-postularme {
+  width: 232px;
+  height: 65px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+  background-color: #5c94ec;
+  border-color: #5c94ec;
+  color: white;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border: none;
+}
+
 .marg-bot-70 {
   margin-bottom: 70px !important;
 }
@@ -240,7 +271,7 @@ main div#cont-form-1 div#curriculum div.container.text-center img {
   height: auto;
   z-index: 999;
   top: 12px;
-  left: 457px;
+  left: 450px;
 }
 main div#cont-form-1 a {
   text-decoration: none;
