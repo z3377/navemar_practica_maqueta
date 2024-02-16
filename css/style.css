@@ -177,6 +177,12 @@ header div#cont-item ul#ul-itemnes li a {
 }
 
 main div#cont-banner {
+  display: block;
+}
+main div#cont-banner-cel {
+  display: none;
+}
+main div#cont-banner {
   height: 508px;
   margin-bottom: 59px;
   width: auto;
@@ -524,6 +530,48 @@ footer div#logo-nos {
     height: auto;
     z-index: 999;
     top: 12px;
-    left: 430px;
+    left: 418px;
+  }
+}
+header#header-cel {
+  display: none;
+}
+
+div#separador-azul-cel {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  body {
+    width: 376px;
+    overflow-x: hidden;
+  }
+  main div#cont-banner {
+    display: none;
+  }
+  main div#cont-banner-cel {
+    display: block;
+    height: 724px;
+  }
+  main div#cont-banner-cel img {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  div#separador-azul-cel {
+    display: block;
+    background-color: #1c4697;
+    height: 15px;
+  }
+  header#header-pc {
+    display: none;
+  }
+  .navbar {
+    --bs-navbar-padding-y: 28px;
+  }
+  header#header-cel {
+    display: block;
+  }
+  header#header-cel nav div a img {
+    width: 215px;
   }
 }/*# sourceMappingURL=style.css.map */
