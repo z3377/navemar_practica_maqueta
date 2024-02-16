@@ -55,8 +55,16 @@ select {
   margin-bottom: 70px !important;
 }
 
-.marg-bot-60 {
-  margin-bottom: 60px !important;
+.marg-bot-40 {
+  padding-bottom: 40px !important;
+}
+
+.marg-top-30 {
+  padding-top: 30px;
+}
+
+.borde-superior-negro {
+  border-top: 1px solid #D0E0EE;
 }
 
 .check-label {
@@ -71,6 +79,11 @@ select {
 
 hr#hr-primera-pagina {
   margin-top: 63px;
+  background-color: #D0E0EE;
+}
+
+.espacio-boton {
+  margin-top: 60px;
 }
 
 header div#nav-cont nav div span a#paranave {
@@ -200,7 +213,6 @@ main div#cont-form-1 div#curriculum .titulo {
   font-size: 18px;
   line-height: 26px;
   color: #004799;
-  margin-top: 40px;
   margin-bottom: 25px;
 }
 main div#cont-form-1 div#curriculum .subtitulo {
@@ -211,7 +223,6 @@ main div#cont-form-1 div#curriculum .subtitulo {
 }
 main div#cont-form-1 div#curriculum div.container.text-center {
   padding-right: 6px;
-  margin-bottom: 40px;
 }
 main div#cont-form-1 div#curriculum div.container.text-center input.btn.btn-primary {
   border-radius: 40px;
@@ -248,7 +259,6 @@ main div#cont-form-1 a p#siguiente img {
 }
 main div#cont-form-1 div.container.text-end {
   padding-right: 6px;
-  margin-bottom: 40px;
 }
 main div#cont-form-1 div.container.text-end input.btn.btn-primary {
   border-radius: 40px;
@@ -304,9 +314,6 @@ main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-1 {
 }
 main div#cont-form-1 div#cont-nomb div#cont-2-col div#col-2 {
   padding-left: 15px;
-}
-main div#cont-form-1 div#check-cont {
-  margin-bottom: 30px;
 }
 main p#queremos-conocerte {
   font-weight: 700;
@@ -459,7 +466,6 @@ footer div#logo-nos {
     font-size: 18px;
     line-height: 26px;
     color: #004799;
-    margin-top: 40px;
     margin-bottom: 25px;
   }
   main div#cont-form-1 div#curriculum .subtitulo {
@@ -470,7 +476,6 @@ footer div#logo-nos {
   }
   main div#cont-form-1 div#curriculum div.container.text-center {
     padding-right: 6px;
-    margin-bottom: 40px;
   }
   main div#cont-form-1 div#curriculum div.container.text-center input.btn.btn-primary {
     border-radius: 40px;

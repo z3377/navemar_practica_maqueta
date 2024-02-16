@@ -56,22 +56,35 @@
     margin-bottom: 70px !important;
   }
 
-  .marg-bot-60 {
-    margin-bottom: 60px !important;
+  .marg-bot-40 {
+    padding-bottom: 40px !important;
   }
 
-  .check-label{
+  .marg-top-30{
+    padding-top: 30px;
+  }
+
+  .borde-superior-negro {
+    border-top: 1px solid #D0E0EE; 
+  }
+
+  .check-label {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
   }
 
-  .form-check{
+  .form-check {
     margin-bottom: 34px;
   }
 
-  hr#hr-primera-pagina{
+  hr#hr-primera-pagina {
     margin-top: 63px;
+    background-color: #D0E0EE;
+  }
+
+  .espacio-boton {
+    margin-top: 60px;
   }
 
   header {
@@ -228,7 +241,7 @@
           font-size: 18px;
           line-height: 26px;
           color: #004799;
-          margin-top: 40px;
+          // margin-top: 40px;
           margin-bottom: 25px;
         }
 
@@ -241,7 +254,7 @@
 
         div.container.text-center {
           padding-right: 6px;
-          margin-bottom: 40px;
+          // margin-bottom: 40px;
 
           input.btn.btn-primary {
             border-radius: 40px;
@@ -297,7 +310,7 @@
 
       div.container.text-end {
         padding-right: 6px;
-        margin-bottom: 40px;
+        // margin-bottom: 40px;
 
         input.btn.btn-primary {
           border-radius: 40px;
@@ -333,7 +346,7 @@
       }
 
       div#cont-nomb {
-        margin-bottom: 40px;
+       margin-bottom: 40px;
 
         p {
           font-weight: 400;
@@ -348,6 +361,7 @@
             margin-left: -5px;
             border: solid 2px #66b5fe;
             overflow-y: hidden;
+            // margin-bottom: 40px;
           }
 
           label {
@@ -370,7 +384,7 @@
       }
 
       div#check-cont {
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
       }
     }
 
@@ -566,7 +580,7 @@
             font-size: 18px;
             line-height: 26px;
             color: #004799;
-            margin-top: 40px;
+            // margin-top: 40px;
             margin-bottom: 25px;
           }
 
@@ -579,7 +593,7 @@
 
           div.container.text-center {
             padding-right: 6px;
-            margin-bottom: 40px;
+            // margin-bottom: 40px;
 
             input.btn.btn-primary {
               border-radius: 40px;
