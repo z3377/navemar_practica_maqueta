@@ -117,6 +117,67 @@ hr#hr-primera-pagina {
   margin-top: 60px;
 }
 
+.form-select-item {
+  background-color: red;
+  width: 232px;
+  height: 65px;
+  padding: 16px 40px 16px 40px !important;
+  border-radius: 40px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div img {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 30px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto {
+  width: 266px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto p {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.82px;
+  text-align: center;
+  color: #004799;
+  margin: 0px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 {
+  width: 266px;
+  height: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center {
+  margin-bottom: 50px;
+}
+div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center a#boton-volver-inicio {
+  width: 195px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 12px 30px 12px 30px;
+  background-color: #4D97ED;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
 header div#nav-cont nav div span a#paranave {
   width: 250px;
   display: flex;
@@ -299,7 +360,6 @@ main div#cont-form-1 div.container.text-end {
 }
 main div#cont-form-1 div.container.text-end input.btn.btn-primary {
   border-radius: 40px;
-  width: 297px;
   height: 50px;
   padding: 12px 56px 12px 22px;
   font-weight: 500;
