@@ -177,8 +177,9 @@
             }
           }
 
-          div.container.text-center{
+          div.container.text-center {
             margin-bottom: 50px;
+
             a#boton-volver-inicio {
               width: 195px;
               height: 50px;
@@ -762,16 +763,6 @@
       div#cont-banner {
         display: none;
       }
-
-      div#cont-banner-cel {
-        display: block;
-        height: 724px;
-
-        img {
-          overflow-x: hidden;
-          overflow-y: hidden;
-        }
-      }
     }
 
     div#separador-azul-cel {
@@ -801,5 +792,65 @@
         }
       }
 
+    }
+
+    div#cont-banner-cel {
+      display: block !important;
+      height: 724px !important;
+      margin-bottom: 59px;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+
+      img#img-banner {
+        z-index: -9;
+        height: auto;
+        width: 100%;
+      }
+
+      div {
+        width: 346px !important;
+        height: auto;
+
+        p#titulo-banner {
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43.88px;
+          color: #fff;
+          margin-bottom: 30px;
+          width: 346px !important;
+        }
+
+        p#texto-banner {
+          width: 346px !important;
+          height: auto;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 0px;
+        }
+
+        div#btn-form-link {
+          a#formulario {
+            background-color: #f78b1d;
+            width: 287px;
+            height: 50px;
+            border-radius: 30px;
+            padding: 12px 30px 12px 30px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+          }
+
+          a#linkedin {
+            width: 155px;
+            height: 50px;
+            border-radius: 30px;
+            padding: 12px 30px 12px 30px;
+            background-color: #5c94ec;
+            margin-left: 30px;
+          }
+        }
+      }
     }
   }
