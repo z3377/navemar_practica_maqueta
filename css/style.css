@@ -601,10 +601,20 @@ div#separador-azul-cel {
   display: none;
 }
 
+div#cont-form-1-cel {
+  display: none;
+}
+
 @media (max-width: 450px) {
   body {
     width: 376px;
     overflow-x: hidden;
+  }
+  div#cont-form-1-cel {
+    display: block;
+  }
+  div#cont-form-1 {
+    display: none;
   }
   main div#cont-banner {
     display: none;
@@ -690,5 +700,161 @@ div#separador-azul-cel {
     padding: 12px 30px 12px 30px;
     background-color: #5c94ec;
     margin-left: 0px;
+  }
+  div#cont-form-1-cel {
+    width: 346px;
+  }
+  div#cont-form-1-cel div#curriculum {
+    /*   div#check-cont {
+      div#form-check {
+        label {
+          font-weight: 400 !important;
+          font-size: 18px !important;
+          line-height: 26px !important;
+          color: red !important;
+        }
+      }
+    } */
+  }
+  div#cont-form-1-cel div#curriculum .titulo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #004799;
+    margin-bottom: 25px;
+  }
+  div#cont-form-1-cel div#curriculum .subtitulo {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+  }
+  div#cont-form-1-cel div#curriculum div.container.text-center {
+    padding-right: 6px;
+  }
+  div#cont-form-1-cel div#curriculum div.container.text-center input.btn.btn-primary {
+    border-radius: 40px;
+    width: 346px;
+    height: 50px;
+    padding: 12px 22px 12px 52px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: white;
+    color: #004799;
+  }
+  div#cont-form-1-cel div#curriculum div.container.text-center img {
+    width: 20px;
+    height: auto;
+    z-index: 999;
+    top: 12px;
+    left: 450px;
+  }
+  div#cont-form-1-cel a {
+    text-decoration: none;
+  }
+  div#cont-form-1-cel a p#siguiente {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #004799;
+    margin-bottom: 50px;
+  }
+  div#cont-form-1-cel a p#siguiente img {
+    width: 38px;
+    height: 15.75px;
+    padding-right: 10px;
+  }
+  div#cont-form-1-cel div.container.text-end {
+    padding-right: 6px;
+  }
+  div#cont-form-1-cel div.container.text-end input.btn.btn-primary {
+    border-radius: 40px;
+    height: 50px;
+    padding: 12px 56px 12px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #5c94ec;
+  }
+  div#cont-form-1-cel div.container.text-end img {
+    width: 20px;
+    height: auto;
+    right: 22px;
+    bottom: 14px;
+  }
+  div#cont-form-1-cel hr#hr-pagina-2 {
+    margin-right: 8px;
+    margin-bottom: 30px;
+  }
+  div#cont-form-1-cel p#datos-personales {
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #004799;
+    margin-bottom: 30px;
+  }
+  div#cont-form-1-cel div#cont-nomb {
+    margin-bottom: 20px;
+  }
+  div#cont-form-1-cel div#cont-nomb p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+  div#cont-form-1-cel div#cont-nomb div textarea {
+    border-radius: 100px;
+    margin-left: -5px;
+    border: solid 2px #66b5fe;
+    overflow-y: hidden;
+  }
+  div#cont-form-1-cel div#cont-nomb div label {
+    color: gray;
+  }
+  div#cont-form-1-cel div#cont-nomb div#cont-2-col {
+    margin: 0px;
+    padding: 0px;
+  }
+  div#cont-form-1-cel div#cont-nomb div#cont-2-col div#col-1 {
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+  div#cont-form-1-cel div#cont-nomb div#cont-2-col div#col-2 {
+    padding-left: 0px;
+    margin-bottom: 70px;
+  }
+  p#queremos-conocerte {
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 36px;
+    color: #004799;
+    margin-bottom: 30px !important;
+    width: 325px;
+  }
+  div#area-interes-cel p#titulo-interes {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #004799;
+    margin-bottom: 38px;
+  }
+  div#area-interes-cel hr {
+    margin-bottom: 38px;
+  }
+  div#area-interes-cel a {
+    text-decoration: none;
+  }
+  div#area-interes-cel a p#siguiente-1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #004799;
+    margin-bottom: 120px;
+  }
+  div#area-interes-cel a p#siguiente-1 img {
+    width: 38px;
+    height: 15.75px;
   }
 }/*# sourceMappingURL=style.css.map */
