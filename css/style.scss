@@ -804,13 +804,16 @@
 
       img#img-banner {
         z-index: -9;
-        height: auto;
+        height: 724px;
         width: 100%;
       }
 
-      div {
-        width: 346px !important;
-        height: auto;
+      div#cont-text {
+        width: 346px;
+        height: 624px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
 
         p#titulo-banner {
           font-weight: 700;
@@ -818,39 +821,56 @@
           line-height: 43.88px;
           color: #fff;
           margin-bottom: 30px;
-          width: 346px !important;
         }
 
         p#texto-banner {
-          width: 346px !important;
-          height: auto;
+          width: 346px;
+          height: 356px;
           font-weight: 400;
           font-size: 18px;
           line-height: 26px;
           margin-bottom: 0px;
+          color: white;
         }
 
         div#btn-form-link {
+          width: 346px;
+          margin-top: 40px;
+
           a#formulario {
             background-color: #f78b1d;
-            width: 287px;
+            width: 100%;
             height: 50px;
             border-radius: 30px;
             padding: 12px 30px 12px 30px;
             font-weight: 600;
             font-size: 18px;
             line-height: 26px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            // margin-top: 40px;
+
+            p{
+              width: 100%;
+              text-align: center;
+            }
           }
 
           a#linkedin {
-            width: 155px;
+            width: 100%;
             height: 50px;
             border-radius: 30px;
             padding: 12px 30px 12px 30px;
             background-color: #5c94ec;
-            margin-left: 30px;
+            margin-left: 0px;
+
+            img{
+              
+            }
           }
         }
+
       }
     }
   }
