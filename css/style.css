@@ -456,25 +456,25 @@ main div#btn-postularme input {
   line-height: 33px;
 }
 
-footer {
+footer#telefono {
   background-color: #1e479d;
 }
-footer div#cont-col-fot {
+footer#telefono div#cont-col-fot {
   width: 1062px;
   padding-top: 80px;
   padding-bottom: 40px;
   padding-left: 0px;
   padding-right: 0px;
 }
-footer div#cont-col-fot div {
+footer#telefono div#cont-col-fot div {
   font-weight: 500;
   line-height: 30px;
   font-size: 12px;
 }
-footer div#cont-col-fot div#img img {
+footer#telefono div#cont-col-fot div#img img {
   padding-top: 12px;
 }
-footer div#logo-nos {
+footer#telefono div#logo-nos {
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -484,17 +484,17 @@ footer div#logo-nos {
     height: 208px;
     width: 1104px;
   }
-  footer {
+  footer#telefono {
     background-color: #1e479d;
   }
-  footer div#cont-col-fot {
+  footer#telefono div#cont-col-fot {
     width: 1005px;
     padding-top: 80px;
     padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
   }
-  footer div#cont-col-fot div {
+  footer#telefono div#cont-col-fot div {
     font-weight: 500;
     line-height: 30px;
     font-size: 12px;
@@ -605,6 +605,22 @@ div#cont-form-1-cel {
   display: none;
 }
 
+div#area-interes-cel {
+  display: none;
+}
+
+div#area-interes {
+  display: block;
+}
+
+footer#telefono {
+  display: block;
+}
+
+footer#celular {
+  display: none;
+}
+
 @media (max-width: 450px) {
   body {
     width: 376px;
@@ -615,6 +631,15 @@ div#cont-form-1-cel {
   }
   div#cont-form-1 {
     display: none;
+  }
+  div#area-interes {
+    display: none;
+  }
+  footer#telefono {
+    display: none;
+  }
+  footer#celular {
+    display: block;
   }
   main div#cont-banner {
     display: none;
@@ -833,6 +858,9 @@ div#cont-form-1-cel {
     margin-bottom: 30px !important;
     width: 325px;
   }
+  div#area-interes-cel {
+    display: block;
+  }
   div#area-interes-cel p#titulo-interes {
     font-weight: 700;
     font-size: 18px;
@@ -856,5 +884,30 @@ div#cont-form-1-cel {
   div#area-interes-cel a p#siguiente-1 img {
     width: 38px;
     height: 15.75px;
+  }
+  footer#celular {
+    background-color: #1e479d;
+  }
+  footer#celular div#cont-col-fot {
+    width: 376px;
+    height: 515.2px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer#celular div#cont-col-fot div {
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 12px;
+  }
+  footer#celular div#cont-col-fot div#img img {
+    padding-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer#celular div#logo-nos {
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
