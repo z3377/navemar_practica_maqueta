@@ -1116,21 +1116,21 @@
 
     footer#celular {
       background-color: #1e479d;
-  
+
       div#cont-col-fot {
         width: 376px;
-        height: 515.2px;
-        padding-top: 80px;
+        height: auto;
+        padding-top: 50px;
         padding-bottom: 40px;
         padding-left: 0px;
         padding-right: 0px;
-  
+
         div {
           font-weight: 500;
           line-height: 30px;
           font-size: 12px;
         }
-  
+
         div#img {
           img {
             padding-top: 0px;
@@ -1139,10 +1139,10 @@
           }
         }
       }
-  
+
       div#logo-nos {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 80px;
       }
     }
 

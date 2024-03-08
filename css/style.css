@@ -890,8 +890,8 @@ footer#celular {
   }
   footer#celular div#cont-col-fot {
     width: 376px;
-    height: 515.2px;
-    padding-top: 80px;
+    height: auto;
+    padding-top: 50px;
     padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
@@ -908,6 +908,6 @@ footer#celular {
   }
   footer#celular div#logo-nos {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
