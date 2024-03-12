@@ -1001,4 +1001,11 @@ footer#celular {
     font-size: 25px;
     line-height: 33px;
   }
+  .marg-top-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .marg-bot-50 {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
