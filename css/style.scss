@@ -601,6 +601,14 @@
       width: 1104px;
     }
 
+    .input-class-custom {
+      margin-left: -29px !important;
+    }
+
+    .pading-label-custom {
+      padding: 6px 0px 6px 8px !important;
+    }
+
     footer#telefono {
       background-color: #1e479d;
 
@@ -1050,6 +1058,10 @@
           line-height: 26px;
           color: #004799;
           margin-bottom: 50px;
+          width: 346px;
+          height: 66px;
+          align-items: center;
+          display: flex;
 
           img {
             width: 38px;
@@ -1060,8 +1072,8 @@
       }
 
       div.container.text-end {
-        padding-right: 6px;
-        // margin-bottom: 40px;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
 
         input.btn.btn-primary {
           border-radius: 40px;
@@ -1072,6 +1084,9 @@
           font-size: 18px;
           line-height: 26px;
           background-color: #5c94ec;
+          width: 100% !important;
+          margin-top: -20px;
+          text-align: justify;
         }
 
         img {
@@ -1233,6 +1248,20 @@
       text-shadow: none !important;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    div#btn-postularme {
+      input {
+        width: 232px;
+        height: 65px;
+        padding: 16px 40px 16px 40px;
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 33px;
+      }
+
+      margin-bottom: 50px !important;
     }
 
   }
