@@ -632,19 +632,19 @@ footer#celular {
     width: auto;
     overflow-x: hidden;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div img {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div img {
     width: 95px;
     height: 95px;
     margin-bottom: 30px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto {
     width: 266px;
     height: 54px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto p {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto p {
     font-weight: 700;
     font-size: 22px;
     line-height: 26.82px;
@@ -652,24 +652,24 @@ footer#celular {
     color: #004799;
     margin: 0px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 {
     width: 266px;
     height: 78px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 p {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div#caja-texto-2 p {
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
     text-align: center;
     margin: 0px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center {
     margin-bottom: 50px;
   }
-  div#postularmeModal div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center a#boton-volver-inicio {
+  div#postularmeModal-cel div.modal-dialog.modal-dialog-centered div.modal-content div.modal-body div.container.text-center a#boton-volver-inicio {
     width: 195px;
     height: 50px;
     border-radius: 30px;
@@ -1007,5 +1007,69 @@ footer#celular {
   }
   .marg-bot-50 {
     margin-bottom: 50px;
+  }
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 346px !important;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+  }
+  div#postularmeModal-cel .modal-backdrop {
+    --bs-backdrop-zindex: 303;
+    --bs-backdrop-bg: #000;
+    --bs-backdrop-opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-backdrop-zindex);
+    width: 100%;
+    height: 100%;
+    background-color: var(--bs-backdrop-bg);
+  }
+  div#postularmeModal-cel .modal-dialog {
+    position: relative;
+    width: 346px;
+    margin: var(--bs-modal-margin);
+    pointer-events: none;
+  }
+  div#postularmeModal-cel .modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 346px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 0.5rem;
+    --bs-modal-color: ;
+    --bs-modal-bg: var(--bs-body-bg);
+    --bs-modal-border-color: var(--bs-border-color-translucent);
+    --bs-modal-border-width: var(--bs-border-width);
+    --bs-modal-border-radius: var(--bs-border-radius-lg);
+    --bs-modal-box-shadow: var(--bs-box-shadow-sm);
+    --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color: var(--bs-border-color);
+    --bs-modal-header-border-width: var(--bs-border-width);
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color: var(--bs-border-color);
+    --bs-modal-footer-border-width: var(--bs-border-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-modal-zindex);
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: none;
+    overflow-y: auto;
+    outline: 0;
   }
 }/*# sourceMappingURL=style.css.map */
