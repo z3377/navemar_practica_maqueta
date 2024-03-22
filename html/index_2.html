@@ -138,7 +138,7 @@
   </header>
   <main>
     <div id="cont-banner" class="position-relative">
-      <img id="img-banner" class="position-absolute" src="../images/banner-bg-desktop.jpg" alt="">
+      <img id="img-banner" class="position-absolute imagen-max-banner" src="../images/banner-bg-desktop.jpg" alt="">
       <div class="position-absolute top-50 start-50 translate-middle">
         <p id="titulo-banner">
           ¡Sumate a nuestro equipo!
@@ -294,10 +294,10 @@
                 Idioma
               </p>
               <select class="form-select" aria-label="Default select example">
-                <option selected>Seleccioná un idioma</option>
-                <option value="1">Español</option>
-                <option value="2">Inglés</option>
-                <option value="3">Portugués</option>
+                <option class="option-custom" selected>Seleccioná un idioma</option>
+                <option class="option-custom" value="1">Español</option>
+                <option class="option-custom" value="2">Inglés</option>
+                <option class="option-custom" value="3">Portugués</option>
               </select>
             </div>
             <div id="col-2" class="col-6 flex-column">
@@ -305,10 +305,10 @@
                 Nivel
               </p>
               <select class="form-select" aria-label="Default select example">
-                <option selected>Seleccioná el Nivel</option>
-                <option value="1">Basico</option>
-                <option value="2">Medio</option>
-                <option value="3">Avanzado</option>
+                <option class="option-custom" selected>Seleccioná el Nivel</option>
+                <option class="option-custom" value="1">Basico</option>
+                <option class="option-custom" value="2">Medio</option>
+                <option class="option-custom" value="3">Avanzado</option>
               </select>
             </div>
           </div>
@@ -375,20 +375,6 @@
           }
         });
       </script>
-
-
-      <!-- <div id="curriculum" class="container text-center marg-bot-40 marg-top-30 borde-superior-negro">
-        <p class="titulo">
-          Adjuntar archivo <br>
-          <span class="subtitulo">
-            (Formato Pdf o Word, peso máximo 10mb)
-          </span>
-        </p>
-        <div class="container text-center position-relative">
-          <img src="images/paperclip_.png" alt="" class="position-absolute">
-          <input class="btn btn-primary" type="button" value="Subir CV">
-        </div>
-      </div> -->
 
       <!-- <hr id="hr-pagina-2"> -->
       <div id="check-cont" class="d-flex justify-content-center marg-top-30 borde-superior-negro">
@@ -612,11 +598,12 @@
         <div class="container text-center position-relative">
           <img src="../images/paperclip_.png" alt="" class="position-absolute">
           <!-- Botón visible para el usuario -->
-          <button class="boton-cv position-absolute top-50 start-50 translate-middle" id="uploadTrigger">Subir CV</button>
+          <button class="boton-cv position-absolute top-50 start-50 translate-middle" id="uploadTrigger">Subir
+            CV</button>
           <!-- Input de archivo oculto -->
           <input type="file" id="fileInput" style="display: none;" accept=".pdf,.doc,.docx" />
         </div>
-      </div> 
+      </div>
 
       <script>
         document.getElementById('uploadTrigger').addEventListener('click', function () {
@@ -640,24 +627,11 @@
         });
       </script>
 
-
-      <!-- <div id="curriculum" class="container text-center marg-bot-40 marg-top-30 borde-superior-negro">
-        <p class="titulo">
-          Adjuntar archivo <br>
-          <span class="subtitulo">
-            (Formato Pdf o Word, peso máximo 10mb)
-          </span>
-        </p>
-        <div class="container text-center position-relative">
-          <img src="images/paperclip_.png" alt="" class="position-absolute">
-          <input class="btn btn-primary" type="button" value="Subir CV">
-        </div>
-      </div> -->
-
       <!-- <hr id="hr-pagina-2"> -->
       <div id="check-cont" class="d-flex justify-content-center marg-top-30 borde-superior-negro">
         <div id="form-check" class="form-check">
-          <input class="form-check-input check-box-custom input-class-custom" type="checkbox" value="" id="flexCheckDefault">
+          <input class="form-check-input check-box-custom input-class-custom" type="checkbox" value=""
+            id="flexCheckDefault">
           <label class="label-check pading-label-custom" for="flexCheckDefault">
             <u>Acepto los términos y condiciones</u>
           </label>

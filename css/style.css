@@ -24,6 +24,14 @@ body {
   padding: 8px 10px 6px 5px;
 }
 
+.option-custom {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+}
+
 select {
   border-radius: 100px !important;
   margin-left: -5px !important;
@@ -627,6 +635,11 @@ footer#celular {
   display: none;
 }
 
+@media (min-width: 1979px) {
+  .imagen-max-banner {
+    width: 100%;
+  }
+}
 @media (max-width: 450px) {
   body {
     width: auto;

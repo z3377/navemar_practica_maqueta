@@ -5,6 +5,7 @@
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   }
 
+  $form-select-border-radius-sm: 40px;
 
   body {
     overflow-x: hidden !important;
@@ -23,6 +24,14 @@
     font-size: 18px;
     line-height: 26px;
     padding: 8px 10px 6px 5px;
+  }
+
+  .option-custom {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
   }
 
   select {
@@ -779,6 +788,13 @@
     display: none;
   }
 
+  @media (min-width:1979px) {
+    .imagen-max-banner{
+      width: 100%;
+    }
+  }
+
+
   @media (max-width:450px) {
 
     body {
@@ -1287,7 +1303,7 @@
       outline: 0;
     }
 
-    div#postularmeModal-cel{
+    div#postularmeModal-cel {
       .modal-backdrop {
         --bs-backdrop-zindex: 303;
         --bs-backdrop-bg: #000;
@@ -1300,14 +1316,14 @@
         height: 100%;
         background-color: var(--bs-backdrop-bg);
       }
-  
+
       .modal-dialog {
         position: relative;
         width: 346px;
         margin: var(--bs-modal-margin);
         pointer-events: none;
       }
-  
+
       .modal {
         --bs-modal-zindex: 1055;
         --bs-modal-width: 346px;
